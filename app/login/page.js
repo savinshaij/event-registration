@@ -60,8 +60,7 @@ export default function LoginPage() {
             router.push("/dashboard");
           }, 1000);
         } else {
-          alert(form.username);
-          alert(AUTH_USERNAME);
+        
           setApiError("Invalid credentials.");
         }
       } catch (err) {
